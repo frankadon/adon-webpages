@@ -9,7 +9,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/signature-view/:name/:position/:phoneNumber/:phoneOnly/:mobileNumber/:mobileOnly',
+    path: '/:name_:position_:phoneNumber_:phoneOnly_:mobileNumber_:mobileOnly',
     name: 'signatureView',
     component: SignatureView,
     props: true
